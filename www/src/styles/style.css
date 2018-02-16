@@ -1,0 +1,229 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	line-height: 1;
+	direction: ltr;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+body{
+	background: #ffffff;
+}
+div{
+	display: block;
+}
+.header{
+	background: #f1f1f1;
+	width: auto;
+	height: 71px;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 44px;
+}
+img.logo{
+	margin: 17px 0 0 0;
+	width: 112px;
+	height: 36px;
+	float: left;
+}
+button{
+	margin: 22px 0 0 0;
+	float: right;
+	font-size: 13px;
+	font-weight: normal;
+	background: #4d90fe;
+	color: #ffffff;
+	padding: 5px;
+}
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+.container h1{
+	text-align: center;
+	color: #555555;
+	font-weight: 300;
+	font-size: 38px;
+	margin: 27px 0 50px 0;
+
+}
+.signup-form{
+	width: 362px;
+	float: right;
+}
+.signup-form-box{
+	margin: 0;
+    padding: 25px;
+    background: #f1f1f1;
+    width: 327px;
+}
+.advert-content{
+	margin: 0 420px 0 0;
+	padding: 18px 0 0 0;
+	width: 530px;
+}
+.advert-icons{
+	background-repeat: no-repeat;
+	background-image: url(../images/icons.png); 
+	background-size: 325px 24px;
+	width: 325px;
+	height: 24px;
+	margin: 0 auto 80px;
+	display: block;
+}
+.devices{
+	background-image: url(../images/gadgets.png);
+    background-size: 300px 172px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 172px;
+    margin: 0 auto 80px;
+    display: block;
+}
+.form-element.submit{
+	text-align: right;
+	margin: 0 14px 20px 0;
+}
+h2{
+	text-align: center;
+    font-family: 'Open Sans', arial;
+    color: #737373;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+p{
+	line-height: 17px;
+    margin: 0 0 1em;
+    text-align: center;
+    font-family: 'Open Sans', arial;
+    color: #737373;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+p.notice{
+	margin: 1em 25px 0;
+    color: #999;
+    font-size: 11px;
+}
+.form-element{
+	position: relative;
+    margin: 0 0 1.5em;
+}
+fieldset{
+	border: 0 none;
+}
+label.firstname{
+	width: 150px;
+}
+strong{
+	margin: 0 0 .5em;
+    display: inline-block;
+    width: 100%;
+    user-select: none;
+    color: #222;
+    font-weight: bold;
+}
+input#firstname{
+	width: 150px;
+	height: 29px;
+	margin: 
+}
+input#lastname{
+	width: 150px;
+	height: 29px;
+	margin: 0 5px 0;
+	display: inline-block;
+	position: relative;
+}
+input#gmailaddress{
+	text-align: right;
+	width: 312px;
+	height: 29px;
+	margin-right: 5px;
+}
+input#password{
+	width: 312px;
+	height: 29px;
+	margin-right: 5px;
+}
+input#confirmpassword{
+	width: 312px;
+	height: 29px;
+	margin-right: 5px;
+}
+input#day{
+	width: 60px;
+	height: 29px;
+	margin-right: 5px;
+}
+input#year{
+	width: 97px;
+	height: 29px;
+}
+input#phone{
+	width: 270px;
+	height: 29px;
+}
+.info{
+	margin: 0.5em 0 0;
+	padding: 0;
+}
+a{
+	color: #1155cc;
+	text-decoration: none;
+	font-weight: bold;
+}
+select{
+	width: 135px;
+	height: 32px;
+	margin: 0 5px 0 0;
+	cursor: default;
+}
+select#gender{
+	width: 312px;
+	height: 32px;
+	margin: 0 5px 0 0;
+	background: #f1f1f1;
+}
+select#flag{
+	width: 40px;
+	height: 32px;
+	margin: 0;
+}
+select#location{
+	width: 312px;
+	height: 32px;
+	margin: 0 5px 0 0;
+	background: #f1f1f1;
+}
+button#droit{
+	margin-bottom: 20px;
+}
+.footer{
+	position: absolute;
+    bottom: -350px;
+    height: 22px;
+    color: #999999;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    font-weight: bold;
+    overflow: hidden;
+    padding-top: 10px;
+    font-size: .85em;
+    white-space: nowrap;
+    line-height: 0;
+}
+.footer ul{
+	color: #999;
+    float: left;
+    max-width: 80%;
+}
+.footer ul li{
+	display: inline;
+    padding: 0 1.5em 0 0;
+}
+.lang{
+	float: right;
+    max-width: 20%;
+}
